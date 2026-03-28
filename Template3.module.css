@@ -1,0 +1,87 @@
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* HEADER */
+.header {
+  text-align: center;
+  background: linear-gradient(135deg, #0ea5e9, #6366f1);
+  color: white;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.header h1 {
+  font-size: 24px;
+}
+
+.header p {
+  font-size: 14px;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 10px;
+  font-size: 13px;
+}
+
+/* GRID */
+.grid {
+  display: flex;
+  gap: 12px;
+}
+
+/* LEFT */
+.left {
+  width: 35%;
+}
+
+/* RIGHT */
+.right {
+  width: 65%;
+}
+
+/* CARD */
+.card {
+  background: white;
+  padding: 12px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.08);
+}
+
+/* HEADINGS */
+.card h2 {
+  font-size: 16px;
+  border-bottom: 2px solid #6366f1;
+  margin-bottom: 8px;
+}
+
+/* BLOCK */
+.block {
+  margin-bottom: 8px;
+}
+
+.company {
+  color: #6366f1;
+  font-weight: 500;
+}
+
+/* META */
+.meta {
+  font-size: 12px;
+  display: flex;
+  gap: 10px;
+}
+
+/* LIST */
+ul {
+  padding-left: 18px;
+  font-size: 13px;
+}

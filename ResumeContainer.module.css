@@ -1,0 +1,101 @@
+/* MAIN CONTAINER */
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 10px;
+}
+
+/* TOP BAR */
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.topbar h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+/* TEMPLATE SWITCH */
+.templateSwitch {
+  display: flex;
+  gap: 6px;
+}
+
+.templateBtn {
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: none;
+  background: #e2e8f0;
+  font-size: 12px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.templateBtn:hover {
+  background: #cbd5f5;
+}
+
+.activeTemplate {
+  background: #3b82f6;
+  color: white;
+}
+
+/* DOWNLOAD BUTTON */
+.downloadBtn {
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  background: linear-gradient(135deg, #3b82f6, #06b6d4);
+  color: white;
+  font-size: 13px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.downloadBtn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(59, 130, 246, 0.3);
+}
+
+/* PREVIEW WRAPPER */
+.previewWrapper {
+  flex: 1;
+  background: #f1f5f9;
+  border-radius: 10px;
+  padding: 20px;
+  overflow-y: auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* RESUME PAPER */
+.preview {
+  width: 794px;          /* A4 width */
+  min-height: 1123px;    /* A4 height */
+  background: white;
+  padding: 24px;
+  border-radius: 6px;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.18);
+  transition: 0.3s;
+}
+
+/* HOVER EFFECT (SUBTLE) */
+.preview:hover {
+  box-shadow: 0 16px 45px rgba(0, 0, 0, 0.22);
+}
+
+/* SCROLLBAR (PREMIUM TOUCH) */
+.previewWrapper::-webkit-scrollbar {
+  width: 6px;
+}
+
+.previewWrapper::-webkit-scrollbar-thumb {
+  background: #cbd5f5;
+  border-radius: 10px;
+}

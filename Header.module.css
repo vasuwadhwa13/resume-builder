@@ -1,0 +1,51 @@
+/* MAIN */
+.container {
+  position: relative;
+  text-align: center;
+  padding: 100px 20px 60px;
+  background: radial-gradient(circle at top, #0f172a, #020617);
+  color: white;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+/* CONTENT */
+.content h1 {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.content span {
+  background: linear-gradient(135deg, #38bdf8, #3b82f6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.content p {
+  margin-top: 20px;
+  color: #94a3b8;
+  font-size: 18px;
+}
+
+/* FLOATING CARD */
+.card {
+  margin: 60px auto 0;
+  width: 280px;
+  padding: 20px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(15px);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6);
+  animation: float 4s ease-in-out infinite;
+}
+
+.card img {
+  width: 100%;
+}
+
+/* FLOAT ANIMATION */
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-15px); }
+  100% { transform: translateY(0px); }
+}

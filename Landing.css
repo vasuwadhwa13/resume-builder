@@ -1,0 +1,132 @@
+/* BASE */
+.landing {
+  font-family: "Inter", sans-serif;
+  background: #020617;
+  color: white;
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+/* 🔥 BACKGROUND GLOW */
+.bg-glow {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, #3b82f6, transparent 70%);
+  top: -100px;
+  left: -100px;
+  filter: blur(120px);
+  opacity: 0.5;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+  z-index: 2;
+  position: relative;
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+/* HERO LAYOUT */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 100px 80px;
+  z-index: 2;
+  position: relative;
+}
+
+/* LEFT SIDE */
+.hero-left {
+  max-width: 500px;
+}
+
+.hero h1 {
+  font-size: 52px;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.hero span {
+  background: linear-gradient(135deg, #38bdf8, #3b82f6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero p {
+  margin-top: 20px;
+  color: #94a3b8;
+  font-size: 18px;
+}
+
+/* CTA */
+.cta {
+  margin-top: 30px;
+  padding: 14px 32px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #3b82f6, #06b6d4);
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.cta:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 40px rgba(59, 130, 246, 0.4);
+}
+
+/* RIGHT SIDE */
+.hero-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ✨ GLASS CARD */
+.resume-card {
+  width: 280px;
+  padding: 25px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(15px);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+  animation: float 4s ease-in-out infinite;
+}
+
+.resume-card h3 {
+  margin-bottom: 5px;
+}
+
+.role {
+  color: #38bdf8;
+  font-size: 14px;
+}
+
+/* LINES */
+.line {
+  height: 8px;
+  background: #334155;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.line.short {
+  width: 60%;
+}
+
+/* FLOAT ANIMATION */
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-15px); }
+  100% { transform: translateY(0px); }
+}

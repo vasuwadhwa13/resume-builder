@@ -1,0 +1,11 @@
+.app {
+  min-height: 100vh;
+  background: #f1f5f9;
+  font-family: "Poppins", sans-serif;
+}
+
+.mainContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}

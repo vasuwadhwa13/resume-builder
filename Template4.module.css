@@ -1,0 +1,74 @@
+.container {
+  max-width: 750px;
+  margin: 20px auto;
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+  background: white;
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-bottom: 2px solid #e5e7eb;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+.header h1 {
+  font-size: 24px;
+}
+
+.header p {
+  color: #14b8a6;
+  font-size: 14px;
+}
+
+/* LINKS */
+.links {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  font-size: 13px;
+}
+
+/* SECTION */
+section {
+  margin-top: 15px;
+}
+
+section h2 {
+  font-size: 16px;
+  border-bottom: 2px solid #14b8a6;
+  margin-bottom: 8px;
+}
+
+/* BLOCK */
+.block {
+  margin-bottom: 10px;
+}
+
+/* ROW (title + date) */
+.row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+/* COMPANY */
+.company {
+  font-weight: 500;
+  color: #14b8a6;
+}
+
+/* META */
+.meta {
+  font-size: 12px;
+}
+
+/* LIST */
+ul {
+  padding-left: 18px;
+  font-size: 13px;
+}

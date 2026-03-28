@@ -1,0 +1,63 @@
+.landing {
+  font-family: sans-serif;
+  background: linear-gradient(to right, #ffffff, #e6f0ff);
+  min-height: 100vh;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  font-weight: 500;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px;
+}
+
+.left {
+  max-width: 500px;
+}
+
+.left h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.left p {
+  margin: 20px 0;
+  color: #555;
+}
+
+/* BUTTONS */
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+button {
+  padding: 12px 24px;
+  border-radius: 25px;
+  border: none;
+  background: #3b5bdb;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.secondary {
+  background: white;
+  color: black;
+  border: 1px solid #ccc;
+}
+
+/* RIGHT IMAGE */
+.right img {
+  width: 300px;
+  border-radius: 10px;
+}
